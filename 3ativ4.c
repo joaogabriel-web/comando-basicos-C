@@ -11,6 +11,5 @@ int main() {
     } else {
         printf("O numero não é divisível por 5 e por 3.\n");
     }
-    
- return 0;
+  return 0;
 }
