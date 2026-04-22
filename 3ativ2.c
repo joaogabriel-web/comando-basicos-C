@@ -22,6 +22,5 @@ int main() {
     } else {
         printf("Nao e valido.");
     }
-    
     return 0;
 }
