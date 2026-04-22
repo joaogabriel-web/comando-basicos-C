@@ -24,7 +24,5 @@ int main() {
     {
         printf("Voce nao pode entrar no evento.");
     }
-    
-
     return 0;
 }
