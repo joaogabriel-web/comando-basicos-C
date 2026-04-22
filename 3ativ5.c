@@ -1,33 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    float X, Y, Z;
+    int num1, num2, num3;
 
-    // X: lado para o outro lado.
-    printf("Digite o valor de X: ");
-    scanf("%f", &X);
+    printf("Digite 3 numeros: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
 
-    // Y: para frente para trás.
-    printf("Digite o valor de Y: ");
-    scanf("%f", &Y);
-
-    // Z: para baixo para cima.
-    printf("Digite o valor de Z: ");
-    scanf("%f", &Z);
-
-    // Verifica se forma um triângulo válido
-    if (X + Y > Z && X + Z > Y && Y + Z > X) {
-        // É um triângulo válido, agora classifica
-        if (X == Y && Y == Z) {
-            printf("Forma um Triangulo Equilatero.\n");
-        } else if (X == Y || Y == Z || X == Z) {
-            printf("Forma um Triangulo Isosceles.\n");
-        } else {
-            printf("Forma um Triangulo Escaleno.\n");
-        }
+    if (num1 > num2 && num1 > num3) {
+        printf("O maior numero é: %d\n", num1);
+    } else if (num2 > num1 && num2 > num3) {
+        printf("O maior numero é: %d\n", num2);
     } else {
-        printf("Nao forma um triangulo valido.\n");
+        printf("O maior numero é: %d\n", num3);
     }
-    
     return 0;
 }
