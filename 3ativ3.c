@@ -11,7 +11,5 @@ int main() {
     } else {
         printf("O numero nao esta entre 10 e 20.\n");
     }
-
     return 0;
-
 }
