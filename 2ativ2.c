@@ -3,7 +3,7 @@
 int main() {
     int num1;
 
-    printf("Digite o primeiro número: ");
+    printf("Digite o número: ");
     scanf("%d", &num1);
 
     if (num1 < 0){
